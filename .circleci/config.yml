@@ -18,3 +18,13 @@ jobs:
           paths:
             - ./venv
           key: v1-dependencies-{{ checksum "Gemfile.lock" }}
+      - run:
+          name: Build static site
+          command: jekyll build
+      - deploy:
+          name: Publish master to S3
+          command: |
+            if [ "${CIRCLE_BRANCH}" == "master" ]; then
+              aws s3 sync --delete _site/ s3://ledvina-farm/
+            fi
+
