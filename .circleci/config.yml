@@ -29,6 +29,6 @@ jobs:
           name: Publish master to S3
           command: |
             if [ "${CIRCLE_BRANCH}" == "master" ]; then
-              aws s3 sync --delete _site/ s3://ledvina-farm/
+              export PATH=~/.local/bin:$PATH && aws s3 sync --delete _site/ s3://ledvina-farm/
             fi
 
