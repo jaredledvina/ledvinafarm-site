@@ -14,6 +14,10 @@ jobs:
           name: install dependencies
           command: |
             bundle install --jobs=4 --retry=3 --path vendor/bundle
+      - run:
+          name: install awscli 
+          command: |
+              apt-get install python-dev && curl -O https://bootstrap.pypa.io/get-pip.py && python get-pip.py --user && export PATH=~/.local/bin:$PATH && pip install --upgrade --user awscli
       - save_cache:
           paths:
             - ./venv
