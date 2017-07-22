@@ -25,9 +25,13 @@ url: "https://ledvina.farm" # the base hostname & protocol for your site, e.g. h
 
 # Build settings
 markdown: kramdown
-theme: minima
-plugins:
-  - jekyll-feed
+theme: forty_jekyll_theme
+# forty_jekyll_theme specific settings
+tiles-source: pages
+tiles-count: 4
+
+sass:
+  style: compressed
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
