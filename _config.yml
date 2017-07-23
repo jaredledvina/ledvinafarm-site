@@ -33,6 +33,12 @@ tiles-count: 4
 sass:
   style: compressed
 
+defaults:
+  - scope:
+      path: "assets/imgs"
+    values:
+      image: true
+
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
 # to override the default setting.
