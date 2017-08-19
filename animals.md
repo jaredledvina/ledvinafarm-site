@@ -2,6 +2,7 @@
 title: Animals
 layout: post
 permalink: animals/
+image: assets/images/outside-sammy-closeup.jpg
 ---
 
 ## This page is devoted to the animals of the Ledvina Farm

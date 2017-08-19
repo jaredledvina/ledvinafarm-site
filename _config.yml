@@ -28,7 +28,7 @@ markdown: kramdown
 theme: forty_jekyll_theme
 # forty_jekyll_theme specific settings
 tiles-source: pages
-tiles-count: 3
+tiles-count: 4
 
 sass:
   style: compressed
