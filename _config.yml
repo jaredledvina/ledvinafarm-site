@@ -28,14 +28,14 @@ markdown: kramdown
 theme: forty_jekyll_theme
 # forty_jekyll_theme specific settings
 tiles-source: pages
-tiles-count: 0
+tiles-count: 3
 
 sass:
   style: compressed
 
 defaults:
   - scope:
-      path: "assets/imgs"
+      path: "assets/images"
     values:
       image: true
 

@@ -4,6 +4,8 @@
 1. Ensure Homebrew is installed
 2. Install a newer version of Ruby: `brew install ruby`
 3. Install Jekyll: `gem install jekyll`
+4. Install all gems: `bundle install`
+5. Configure pre-commit hooks: `bundle exec jekyll pre-commit init`
 
 More information can be found in the official Jekyll docs: 
 http://jekyllrb.com/docs/installation/
@@ -18,3 +20,5 @@ You can lauch a local server to test changes with: `bundle exec jekyll serve`
 The theme is originally Forty by HTML5 UP: https://html5up.net/forty
 Jekyll theme is: https://github.com/andrewbanchich/Forty-Jekyll-Theme
 
+
+#### Development
