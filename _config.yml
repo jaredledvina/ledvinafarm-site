@@ -51,3 +51,12 @@ exclude:
   - vendor/gems/
   - vendor/ruby/
   - README.md
+
+pre-commit:
+  - check: FrontMatterVariableExists
+    variables: ['description']
+  - check: FrontMatterVariableIsNotDuplicate
+    variables: ['description']
+  - check: FrontMatterVariableMeetsLengthRequirements
+    variables: ['description', 'title']
+  - check: NoDuplicateTags
