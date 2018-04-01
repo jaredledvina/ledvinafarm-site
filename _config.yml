@@ -17,7 +17,7 @@ title: The Ledvina Farm
 email: jaredledvina@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
     Website dedicated to displaying all the beauty and wonder that the Ledvina
-    farm offers. 
+    farm offers.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://ledvina.farm" # the base hostname & protocol for your site, e.g. http://example.com
 #twitter_username: jekyllrb
@@ -38,7 +38,14 @@ defaults:
       path: "assets/images"
     values:
       image: true
+plugins:
+  - jekyll-compress-images
 
+# jekyll-compress-images configuration
+compress_images:
+  images_path: "assets/images/**/*.{gif,png,jpg,jpeg,svg}"
+imageoptim:
+  svgo: false
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
 # to override the default setting.

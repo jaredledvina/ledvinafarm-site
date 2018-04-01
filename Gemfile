@@ -21,6 +21,7 @@ gem "forty_jekyll_theme", "~> 1.3"
 group :jekyll_plugins do
   gem "jekyll-pre-commit", "~> 0.2.1"
   gem "jekyll-feed", "~> 0.9.3"
+  gem 'jekyll-compress-images', "~> 1.2"
 end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
