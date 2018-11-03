@@ -60,7 +60,7 @@ GEM
     mercenary (0.3.6)
     pathutil (0.16.2)
       forwardable-extended (~> 2.6)
-    progress (3.4.0)
+    progress (3.5.0)
     public_suffix (3.0.3)
     rb-fsevent (0.10.3)
     rb-inotify (0.9.10)
