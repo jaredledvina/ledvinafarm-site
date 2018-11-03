@@ -44,7 +44,7 @@ GEM
     jekyll-compress-images (1.2)
       image_optim
       image_optim_pack
-    jekyll-feed (0.9.3)
+    jekyll-feed (0.11.0)
       jekyll (~> 3.3)
     jekyll-pre-commit (0.2.1)
     jekyll-sass-converter (1.5.2)
@@ -82,7 +82,7 @@ DEPENDENCIES
   forty_jekyll_theme (~> 1.3)
   jekyll (= 3.8.4)
   jekyll-compress-images (~> 1.2)
-  jekyll-feed (~> 0.9.3)
+  jekyll-feed (~> 0.11.0)
   jekyll-pre-commit (~> 0.2.1)
   tzinfo-data
 
