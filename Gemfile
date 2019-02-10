@@ -28,4 +28,4 @@ end
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
 # Plugin dependencies
-gem 'exifr', "~> 1.3.5"
+gem 'exifr', "~> 1.3.6"
