@@ -20,7 +20,7 @@ gem "forty_jekyll_theme", "~> 1.3"
 # If you have any plugins, put them here!
 group :jekyll_plugins do
   gem "jekyll-pre-commit", "~> 0.3.0"
-  gem "jekyll-feed", "~> 0.11.0"
+  gem "jekyll-feed", "~> 0.12.0"
   gem 'jekyll-compress-images', "~> 1.2"
 end
 
