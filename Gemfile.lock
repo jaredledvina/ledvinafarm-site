@@ -61,7 +61,7 @@ GEM
     pathutil (0.16.2)
       forwardable-extended (~> 2.6)
     progress (3.5.1)
-    public_suffix (3.0.3)
+    public_suffix (3.1.0)
     rb-fsevent (0.10.3)
     rb-inotify (0.10.0)
       ffi (~> 1.0)
