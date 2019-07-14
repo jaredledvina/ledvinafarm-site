@@ -26,7 +26,7 @@ GEM
     image_optim_pack (0.5.3)
       fspath (>= 2.1, < 4)
       image_optim (~> 0.19)
-    image_size (2.0.1)
+    image_size (2.0.2)
     in_threads (1.5.2)
     jekyll (3.8.6)
       addressable (~> 2.4)
